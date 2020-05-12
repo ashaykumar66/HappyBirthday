@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Chhuo</string>
+    <string name="touch_me">Touch  Me</string>
+    <string name="idhar_chhu">Idhar  Chhu</string>
+    <string name="birthday_message">Wish U A Very\n\nHappy Birthday :)\n\nNIRAJ</string>
+    <string name="image_first_text_view">Some  Wishes</string>
+    <string name="image_second_text_view">Tu  Accha  hai  Yrr</string>
+    <string name="image_third_text_view">Apki  College  Life</string>
+    <string name="image_fourth_text_view">College  ke  dost </string>
+    <string name="image_fifth_text_view">Master  Sahab</string>
+    <string name="image_sixth_text_view">Hume  Mat  Bhul  Jana</string>
+    <string name="image_seventh_text_view">7th</string>
+</resources>

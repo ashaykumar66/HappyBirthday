@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_view_activity"
+    tools:context=".Image_Activity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="@string/image_first_text_view"/>
+
+            //1st row
+
+           <HorizontalScrollView
+               android:layout_width="match_parent"
+               android:layout_height="560dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="20dp">
+               
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+               
+               <ImageView
+                   android:layout_width="315dp"
+                   android:layout_height="560dp"
+                   android:layout_marginRight="30dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/display11"></ImageView>
+
+               <ImageView
+                   android:layout_width="315dp"
+                   android:layout_height="560dp"
+                   android:layout_marginRight="30dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/display12"></ImageView>
+
+               <ImageView
+                   android:layout_width="315dp"
+                   android:layout_height="560dp"
+                   android:layout_marginRight="30dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/display13"></ImageView>
+
+               <ImageView
+                   android:layout_width="315dp"
+                   android:layout_height="560dp"
+                   android:layout_marginRight="30dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/dispaly14"></ImageView>
+
+               <ImageView
+                   android:layout_width="315dp"
+                   android:layout_height="560dp"
+                   android:layout_marginRight="30dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/display15"></ImageView>
+
+               </LinearLayout>
+           </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="@string/image_second_text_view"></TextView>
+
+
+            //2nd row
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display21"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dispaly22"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display23"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display24"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display25"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="@string/image_third_text_view"></TextView>
+
+            //3rd row
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display31"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display32"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display33"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display34"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display35"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="@string/image_fourth_text_view"></TextView>
+
+            //4th view
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display41"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display42"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display43"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display44"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display45"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="@string/image_fifth_text_view"></TextView>
+
+            //5th view
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display51"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display52"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display53"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display54"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display55"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="@string/image_sixth_text_view"></TextView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display61"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display62"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display63"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display64"></ImageView>
+
+                    <ImageView
+                        android:layout_width="315dp"
+                        android:layout_height="560dp"
+                        android:layout_marginRight="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/display65"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
